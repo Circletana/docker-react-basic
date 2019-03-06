@@ -6,4 +6,4 @@ before_install:
   - docker build -t ashpinl/docker-react-basic -f Dockerfile.dev .
 
 script:
-  - docker run ashpinl/docker-react npm run test -- --coverage
+  - docker run ashpinl/docker-react-basic npm run test -- --coverage
